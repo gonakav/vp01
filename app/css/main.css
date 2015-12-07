@@ -1,0 +1,120 @@
+/* Страница - начало */
+
+html {
+	height: 100%;
+}
+
+body {
+	height: 100%;
+	background: url(../img/body-background.png) repeat;
+	font: normal 1em 'fira_sanslight';
+	color: #5a636b;
+}
+
+/* Страница - конец */
+
+
+/* Прибить нижний колонтитул - начало*/
+
+.wrapper {
+	position: relative;
+	min-height: 100%;
+	min-width: 970px;
+	height: auto;
+}
+
+.wrapper:after {
+	content: " ";
+	height: 80px;
+	display: block;
+}
+
+.page-footer {
+	min-width: 970px;
+	height: 80px;
+	margin-top: -80px;
+}
+
+/* Прибить нижний колонтитул - начало*/
+
+
+/* Нижний колонтитул - начало */
+
+.page-footer {
+	background: #eff3f7 url(../img/line.png) top center no-repeat;
+	font-family: 'fira_sanslight';
+	color: #5a636b;
+}
+
+.page-footer .container {
+	padding-top: 23px;
+	position: relative;
+}
+
+.page-footer .copyright {
+	margin: 0 180px;
+	padding-top: 7px;
+	text-align: center;
+	font-size: 13px;
+}
+
+.page-footer .lock {
+	position: absolute;
+	top: 26px;
+	left: 20px;
+}
+
+.lock .lock-inner {
+	display: block;
+	height: 40px;
+	font-family: 'fira_sansbook';
+	font-size: 16px;
+	line-height: 2.2;
+	color: #5a636b;
+	text-decoration: none;
+	background: url(../img/locked.png) no-repeat;
+	padding-left: 24px;
+}
+
+.lock .lock-inner:hover {
+	text-decoration: underline;
+	background: url(../img/unlocked.png) no-repeat;
+}
+
+/* Нижний колонтитул - конец */
+
+
+/* Общие - начало */
+
+.container {
+	width: 960;
+	margin: 0 auto;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.null-left {
+	float: left;
+}
+
+.null-right {
+	float: right;
+}
+
+/* clearfix - начало */
+
+.container:before, .clearfix:before,
+.container:after, .clearfix:after {
+	content: " ";
+	display: table;
+}
+
+.container:after, .clearfix:after {
+	clear: both;
+}
+
+/* clearfix - конец */
+
+/* Общие - конец */
