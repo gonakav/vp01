@@ -1,0 +1,12 @@
+@font-face {
+  font-family: '../fonts/ProximaNovaCond-Semibold';
+  src: url('../fonts/ProximaNovaCond-Semibold.eot');
+  src: url('../fonts/ProximaNovaCond-Semibold.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/ProximaNovaCond-Semibold.woff2') format('woff2'),
+       url('../fonts/ProximaNovaCond-Semibold.woff') format('woff'),
+       url('../fonts/ProximaNovaCond-Semibold.ttf') format('truetype'),
+       url('../fonts/ProximaNovaCond-Semibold.svg#ProximaNovaCond-Semibold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+

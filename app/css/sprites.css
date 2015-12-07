@@ -1,0 +1,52 @@
+.fb, .fb_hover, .gt, .gt_hover, .tw, .tw_hover, .vk, .vk_hover{
+	background: url(sprites.png) no-repeat;
+}
+
+.fb{
+	background-position: -100px 0;
+	width: 47px;
+	height: 47px;
+}
+
+.fb_hover{
+	background-position: -100px -50px ;
+	width: 47px;
+	height: 47px;
+}
+
+.gt{
+	background-position: -150px 0;
+	width: 47px;
+	height: 47px;
+}
+
+.gt_hover{
+	background-position: -150px -50px ;
+	width: 47px;
+	height: 47px;
+}
+
+.tw{
+	background-position: -50px 0;
+	width: 47px;
+	height: 47px;
+}
+
+.tw_hover{
+	background-position: -50px -50px ;
+	width: 47px;
+	height: 47px;
+}
+
+.vk{
+	background-position: 0 0;
+	width: 47px;
+	height: 47px;
+}
+
+.vk_hover{
+	background-position: 0 -50px ;
+	width: 47px;
+	height: 47px;
+}
+
