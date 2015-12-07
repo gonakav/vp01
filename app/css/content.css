@@ -1,0 +1,103 @@
+.main-content {width: 650px;}
+
+.box {
+	margin-bottom: 26px;
+	background: #eff3f7;
+	border-radius: 4px;
+}
+
+.box .box-title {
+	display: inline-block;
+	margin: 0;
+	margin-bottom: 23px;
+	padding: 20px 22px;
+	font: 27px/27px 'fira_sansbook';
+	color: #3ba8c0;
+	font-weight: normal;
+	border-bottom: 2px solid #3ba8c0;
+}
+
+.box .box-body {
+	padding-bottom: 38px;
+}
+
+.box-body .image-box {
+	margin-left: 55px;
+	margin-top: 10px;
+}
+
+.image-box .image-wrap {
+	width: 142px;
+	height: 142px;
+	border-radius: 50%;
+	overflow: hidden;
+	border: 5px solid #3ba8c0;
+}
+
+.box-body .ws-list {
+	width: 400px;
+	margin: 0;
+	margin-left: 22px;
+	padding: 0;
+}
+
+.ws-list .ws-item {
+    margin-bottom: 16px;
+}
+
+.ws-item .ws-what {
+	float: left;
+	font: 17px/17px 'fira_sansmedium';
+}
+
+.ws-item .ws-info {
+	float: left;
+	font: 15px/15px 'fira_sansbook';
+	margin-left: 21px;
+}
+
+.ws-info .skills-info {
+	width: 224px;
+	padding: 0;
+}
+
+.skills-info .skills-item {
+	float: left;
+	border-radius: 4px;
+	color: #fff;
+	font-family: 'ProximaNovaCond-Semibold';
+	margin-right: 13px;
+	margin-bottom: 7px;
+	text-align: center;
+	padding: 3px 12px;
+	background: rgb(59,168,192);
+	background: -moz-linear-gradient(top,  rgb(59,168,192) 50%, rgb(46,140,162) 50%);
+	background: -webkit-linear-gradient(top,  rgb(59,168,192) 50%,rgb(46,140,162) 50%);
+	background: linear-gradient(to bottom,  rgb(59,168,192) 50%,rgb(46,140,162) 50%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3ba8c0', endColorstr='#2e8ca2',GradientType=0 );
+}
+
+.box-body .box-list {
+	margin: 0;
+	padding-left: 50px;
+}
+.box-item.icon-work {
+	background: url('../img/case.png') no-repeat;
+	background-position: 9px center;
+}
+.box-item {
+	padding-left: 76px;
+	padding-right: 10px;
+	margin-bottom: 16px;
+}
+.box-item .place {font: 17px/22px 'fira_sansbook';}
+.box-item .time {font: 15px/20px 'fira_sanslight';}
+
+.box-item.icon-university {
+	background: url('../img/edu.png') no-repeat;
+	background-position: 9px center;
+}
+.box-item.icon-course {
+	background: url('../img/course.png') no-repeat;
+	background-position: 19px center;
+}

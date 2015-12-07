@@ -1,71 +1,324 @@
 <!DOCTYPE html>
-<html lang="ru-RU"> <!-- Корректная расстановка переносов -->
+
+<!-- Корректная расстановка переносов -->
+<html lang="ru-RU">
+
 <head>
-	<meta charset="UTF-8">
-	<!-- Переключение браузеров IE8+ в последний доступный стандартный режим отображения страниц -->
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<!-- Настройка области просмотра страницы, если она не определена или не адаптируется под разные устройства -->
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Первый выпускной проект</title>
-	<!-- Значок для избранного -->
-	<link rel="shortcut icon" type="image/x-icon" href="./favicon.ico">
-	<!-- Поиско́вая оптимиза́ция -->
-	<meta name="description" content="Первый выпускной проект">
-	<meta name="keywords" content="первый выпускной проект">
-	<meta name="author" content="Гонак Антон">
-	<!-- Каскадные таблицы стилей -->
-	<link rel="stylesheet" href="css/normalize.css"> <!-- Bower Normalize CSS -->
-	<link rel="stylesheet" href="css/fira.css"> <!-- Custom FiraFonts CSS -->
-	<link rel="stylesheet" href="css/proxima.css"> <!-- Custom ProximaFonts CSS -->
-	<link rel="stylesheet" href="css/main.css"> <!-- Custom Main CSS -->
-	<link rel="stylesheet" href="css/about.css"> <!-- Custom About CSS -->
-	<script src="js/modernizr.js"></script>  <!-- Bower Modernizr CSS -->
+    <meta charset="UTF-8">
+
+    <!-- Переключение браузеров IE8+ в последний доступный стандартный режим отображения страниц -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- Настройка области просмотра страницы, если она не определена или не адаптируется под разные устройства -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Первый выпускной проект</title>
+
+    <!-- Значок для избранного -->
+    <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico">
+
+    <!-- Поисковая оптимизация -->
+    <meta name="description" content="Первый выпускной проект">
+    <meta name="keywords" content="первый выпускной проект">
+    <meta name="author" content="Гонак Антон">
+
+    <!-- Bower Normalize CSS -->
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <!-- Custom FiraFonts CSS -->
+    <link rel="stylesheet" href="css/fira.css">
+
+    <!-- Custom ProximaFonts CSS -->
+    <link rel="stylesheet" href="css/proxima.css">
+
+    <!-- Custom Main CSS -->
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- Custom Wrapper CSS -->
+    <link rel="stylesheet" href="css/wrapper.css">
+
+    <!-- Custom Header CSS -->
+    <link rel="stylesheet" href="css/header.css">
+
+    <!-- Custom Sidebar CSS -->
+    <link rel="stylesheet" href="css/sidebar.css">
+
+    <!-- Custom Navigation CSS -->
+    <link rel="stylesheet" href="css/navigation.css">
+
+    <!-- Custom Contacts CSS -->
+    <link rel="stylesheet" href="css/contacts.css">
+
+    <!-- Custom Content CSS -->
+    <link rel="stylesheet" href="css/content.css">
+
+    <!-- Custom Footer CSS -->
+    <link rel="stylesheet" href="css/footer.css">
+
+    <!-- Bower Modernizr CSS -->
+    <script src="js/modernizr.js"></script>
+</head>
+
+
 <body>
-	<!--[if lt IE 7]>
+    <!--[if lt IE 7]>
 	<p class="browsehappy">Ваш браузер <strong>устарел</strong>. Пожалуйста<a href="http://browsehappy.com/">обновите</a> его.</p>
 	<![endif]-->
-	
-	<div class="wrapper">
-		<div class="main-content">
-			<header class="page-header">
-				<div class="container-big">
-					<a class="header-logo-link">
-						<img class="logo-img" alt="Логотип1" src="img/logotype1.png">
-						<img class="logo-img" alt="Логотип2" src="img/logotype2.png">
-						<span class="header-logo-text">Сайт портфолио</span>
-					</a>
-					<ul class="socials">
-						<li class="socials-item">
-							<a class="socials-link vk" target="_blank" href="https://vk.com/gonakav">vk.com</a>
-						</li>
-						<li class="socials-item">
-							<a class="socials-link tw" target="_blank" href="https://twitter.com/anton06745136">twitter.com</a>
-						</li>
-						<li class="socials-item">
-							<a class="socials-link fb" target="_blank" href="https://www.facebook.com/profile.php?id=100007391446701">facebook.com</a>
-						</li>
-						<li class="socials-item">
-							<a class="socials-link gt" target="_blank" href="https://github.com/gonakav">github.com</a>
-						</li>
-					</ul>
-				</div>
-			</header>
-		</div>
-	</div>
-	<footer class="page-footer">
-		<div class="container">
-			<div class="lock">
-				<a href="./login.html" class="lock-inner">Войти</a>
-			</div>
-			<div class="copyright">
-				© 2015, Этот сайт является интеллектуальной собственностью автора.
-			</div>
-		</div>
-	</footer>
 
-	<!-- Bower JQuery JavaScript  -->
-	<script src="js/jquery.js"></script>
-	<!-- Custom Main JavaScript  -->
-	<script src="js/main.js"></script>
+    <!-- Блок обертки - начало -->
+    <div class="wrapper">
+
+        <!-- Блок заголовка сайта - начало -->
+        <header class="header">
+            <div class="header-top clearfix">
+
+                <!-- Блок логотипа - начало -->
+                <a href="/" class="logo">
+                    <img src="img/logo.png" alt="loftschool" title="loftschool">
+                    <span class="header-logo-txt">
+                        Сайт портфолио
+                    </span>
+                </a>
+                <!-- Блок логотипа - конец -->
+
+                <!-- Блок социальных сетей - начало -->
+                <div class="social-btn right">
+                    <a href="http://vk.com/gonakav" target="_blank" class="social-link vk-ico">
+                        vk.com
+                    </a>
+                    <a href="https://twitter.com/anton06745136" target="_blank" class="social-link twit-ico">
+                        twitter.com
+                    </a>
+                    <a href="https://www.facebook.com/profile.php?id=100007391446701" target="_blank" class="social-link face-ico">
+                        facebook.com
+                    </a>
+                    <a href="https://github.com/gonakav" target="_blank" class="social-link git-ico">
+                        github.com
+                    </a>
+                </div>
+                <!-- Блок социальных сетей - конец -->
+
+            </div>
+        </header>
+        <!-- Блок заголовка сайта - конец -->
+
+        <!-- Блок основного содержимого - начало -->
+        <div class="container-big clearfix">
+
+            <!-- Блок главного меню - начало -->
+            <aside class="sidebar left">
+
+                <!-- Блок навигации - начало -->
+                <nav class="navigation">
+                    <ul class="navigation-list">
+                        <li class="navigation-item current">
+                            <a class="navigation-link" href="index.html">
+                                Обо мне
+                            </a>
+                        </li>
+                        <li class="navigation-item">
+                            <a class="navigation-link" href="works.html">
+                                Мои работы
+                            </a>
+                        </li>
+                        <li class="navigation-item">
+                            <a class="navigation-link" href="contacts.html">
+                                Связаться со мной
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <!-- Блок навигации - конец -->
+
+                <!-- Блок контактов - начало -->
+                <address class="contacts">
+     				<div class="contacts-title">
+                        <span class="contacts-text">
+     				        Контакты
+     				    </span>
+     			    </div>
+     				<ul class="contacts-btn">
+     					<li class="contacts-item mail">
+                            <a class="contacts-link" href="mailto:anton@gonak.ru">
+     					            anton@gonak.ru
+     					    </a>
+     					</li>
+     					<li class="contacts-item phone">
+     					    <a class="contacts-link" href="tel:+79224100781">
+     					        +79224100781
+     					    </a>
+     					</li>
+     					<li class="contacts-item skype">
+     					    <a class="contacts-link" href="skype:fyonys-crons?chat">
+     					        fyonys-crons
+     					    </a>
+     					</li>
+     				</ul>
+     			</address>
+                <!-- Блок контактов - конец -->
+
+            </aside>
+            <!-- Блок главного меню - конец -->
+
+            <!-- Блок CMS-содержимого - начало -->
+            <div class="main-content right">
+
+                <!-- Блок основной информации - начало -->
+                <section class="box">
+                    <h3 class="box-title">
+                        Основная информация
+                    </h3>
+                    <div class="box-body clearfix">
+                        <div class="image-box left">
+                            <div class="image-wrap">
+                                <img src="img/my_small_photo.jpg" height="142" width="142" alt="Антон Гонак">
+                            </div>
+                        </div>
+                        <ul class="ws-list left">
+                            <li class="ws-item clearfix">
+                                <div class="ws-what">
+                                    Меня зовут:
+                                </div>
+                                <div class="ws-info">
+                                    Гонак Антон Владимирович
+                                </div>
+                            </li>
+                            <li class="ws-item clearfix">
+                                <div class="ws-what">
+                                    Мой возраст:
+                                </div>
+                                <div class="ws-info">
+                                    31 год
+                                </div>
+                            </li>
+                            <li class="ws-item clearfix">
+                                <div class="ws-what">
+                                    Мой город:
+                                </div>
+                                <div class="ws-info">
+                                    Тюмень, Россия
+                                </div>
+                            </li>
+                            <li class="ws-item clearfix">
+                                <div class="ws-what">
+                                    Моя специализация:
+                                </div>
+                                <div class="ws-info">
+                                    FRONTEND-разработчик
+                                </div>
+                            </li>
+                            <li class="ws-item">
+                                <div class="ws-what">
+                                    Ключевые навыки:
+                                </div>
+                                <div class="ws-info">
+                                    <ul class="skills-info clearfix">
+                                        <li class="skills-item">
+                                            html
+                                        </li>
+                                        <li class="skills-item">
+                                            css
+                                        </li>
+                                        <li class="skills-item">
+                                            javascript
+                                        </li>
+                                        <li class="skills-item">
+                                            gulp
+                                        </li>
+                                        <li class="skills-item">
+                                            git
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+                <!-- Блок основной информации - конец -->
+
+                <!-- Блок навыков - начало -->
+                <section class="box">
+                    <h3 class="box-title">
+                        Опыт работы
+                    </h3>
+                    <div class="box-body">
+                        <ul class="box-list">
+                            <li class="box-item icon-work">
+                                <div class="place">
+                                    ОАО «Региональный технический центр» - Системный администратор
+                                </div>
+                                <div class="time">
+                                    Октябрь 2002 - Сентябрь 2012
+                                </div>
+                            </li>
+                            <li class="box-item icon-work">
+                                <div class="place">
+                                    НАО «Сибирский научно-аналитический центр» - Администратор СУБД
+                                </div>
+                                <div class="time">
+                                    Сентябрь 2012 - Сентябрь 2015
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+                <!-- Блок навыков - конец -->
+
+                <!-- Блок знаний - начало -->
+                <section class="box">
+                    <h3 class="box-title">
+                        Образование
+                    </h3>
+                    <div class="box-body">
+                        <ul class="box-list">
+                            <li class="box-item icon-university">
+                                <div class="place">
+                                    УрТИСИ СибГУТИ - Сети связи и системы коммутации
+                                </div>
+                                <div class="time">
+                                    Сентябрь 2004 - Сентябрь 2007
+                                </div>
+                            </li>
+                            <li class="box-item icon-course">
+                                <div class="place">
+                                    Курсы Loftschool - Комплексное обучение веб-разработке
+                                </div>
+                                <div class="time">
+                                    Ноябрь 2015 - по настоящее время
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+                <!-- Блок знаний - конец -->
+
+            </div>
+            <!-- Блок CMS-содержимого - конец -->
+
+        </div>
+        <!-- Блок основного содержимого - конец -->
+
+    </div>
+    <!-- Блок обертки - конец -->
+
+    <!-- Блок нижнего колонтитула - начало -->
+    <footer class="page-footer">
+        <div class="container">
+            <div class="lock">
+                <a href="login.html" class="lock-inner">
+                    Войти
+                </a>
+            </div>
+            <div class="copyright">
+                &copy; 2015, Этот сайт является интеллектуальной собственностью автора.
+            </div>
+        </div>
+    </footer>
+    <!-- Блок нижнего колонтитула - конец -->
+
+    <!-- Bower JQuery JavaScript  -->
+    <script src="js/jquery.js"></script>
+    <!-- Custom Main JavaScript  -->
+    <script src="js/main.js"></script>
 </body>
+
 </html>

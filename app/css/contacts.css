@@ -1,0 +1,50 @@
+.contacts {
+	font: 20px/20px 'fira_sansbook';
+	border-radius: 4px;
+}
+
+.contacts .contacts-title {
+	padding: 14px 10px 5px 21px;
+	background: #3ba8c0;
+	border-radius: 4px 4px 0 0;
+}
+
+.contacts-title .contacts-text {
+	font: 20px/20px 'fira_sansbook';
+	color: #fff;
+}
+
+.contacts .contacts-btn {
+	margin: 0;
+	padding: 0;
+}
+
+.contacts-btn .contacts-item.mail {
+	background: #41b9d4 url('../img/mail.png') no-repeat; 
+	background-position: 43px center;
+}
+
+.contacts-btn .contacts-item.phone {
+	background: #48cbe8 url('../img/phone.png') no-repeat;
+	background-position: 43px center;
+}
+
+.contacts-btn .contacts-item.skype {
+	background: #51daf8 url('../img/skype.png') no-repeat;
+	background-position: 43px center;
+}
+
+.contacts-btn .contacts-item:last-child {
+    border-radius: 0 0 4px 4px;
+}
+
+.contacts-btn .contacts-link {
+	display: block;
+	padding: 15px 0 8px 84px;
+	font: 17px/17px 'fira_sansbook';
+	color: #fff;
+}
+
+.contacts-btn .contacts-link:hover {
+	text-decoration: underline;
+}

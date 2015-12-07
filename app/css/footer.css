@@ -1,0 +1,43 @@
+.page-footer {
+	background: #eff3f7 url('../img/line.png') top center no-repeat;
+	font-family: 'fira_sanslight';
+	color: #4a545d;
+}
+
+.container {
+	width: 960px;
+	margin: 0 auto;
+}
+
+.page-footer .container {
+	padding-top: 40px;
+	position: relative;
+}
+
+.page-footer .copyright {
+	margin: 0 180px;
+	text-align: center;
+	font-size: 13px;
+}
+
+.page-footer .lock {
+	position: absolute;
+	top: 26px;
+	left: 32px;
+}
+
+.lock .lock-inner {
+	display: block;
+	height: 40px;
+	font: 16px/16px 'fira_sansbook';
+	color: #4a545d;
+	text-decoration: none;
+	background: url('../img/locked.png') no-repeat;
+	padding-left: 24px;
+	line-height: 40px;
+}
+
+.lock .lock-inner:hover {
+	text-decoration: underline;
+	background: url('../img/unlocked.png') no-repeat;
+}

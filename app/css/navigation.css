@@ -1,0 +1,44 @@
+.navigation {
+	overflow: hidden;
+	background: #eff3f7;
+	border-radius: 4px;
+	margin-bottom: 26px;
+}
+
+.navigation .navigation-list {
+	margin: 0;
+	padding: 0;
+}
+
+.navigation-list .navigation-item {
+	margin: 0 11px;
+	border-top: 2px solid #3ba8c0;
+}
+
+.navigation-list .navigation-item:first-child {
+    border-top: none;
+}
+
+.navigation .navigation-item.current {
+	margin: 0;
+	border-bottom: none;
+	padding-left: 11px;
+	margin-bottom: -2px;
+	background: #3ba8c0;
+}
+
+.navigation .navigation-item.current .navigation-link {
+    color: #fff;
+}
+
+.navigation-item .navigation-link {
+	display: block;
+	font: 21px/21px 'fira_sansbook';
+	color: #959aa8;
+	padding: 25px 0;
+	margin-left: 18px;
+}
+
+.navigation-item .navigation-link:hover {
+    color: #3ba8c0;
+}
