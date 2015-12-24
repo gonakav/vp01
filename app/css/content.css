@@ -34,6 +34,11 @@
 	border: 5px solid #3ba8c0;
 }
 
+.image-content {
+	width: 142px;
+	height: 142px;
+}
+
 .box-body .ws-list {
 	width: 400px;
 	margin: 0;
