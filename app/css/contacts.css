@@ -20,17 +20,17 @@
 }
 
 .contacts-btn .contacts-item.mail {
-	background: #41b9d4 url('../img/mail.png') no-repeat; 
+	background: #41b9d4; 
 	background-position: 43px center;
 }
 
 .contacts-btn .contacts-item.phone {
-	background: #48cbe8 url('../img/phone.png') no-repeat;
+	background: #48cbe8;
 	background-position: 43px center;
 }
 
 .contacts-btn .contacts-item.skype {
-	background: #51daf8 url('../img/skype.png') no-repeat;
+	background: #51daf8;
 	background-position: 43px center;
 }
 
@@ -47,4 +47,29 @@
 
 .contacts-btn .contacts-link:hover {
 	text-decoration: underline;
+}
+
+.contacts-link {
+    background: rgba(0, 0, 0, 0) url("../img/contacts.png") no-repeat scroll 0 0;
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    font-family: "fira_sansbook",Arial,sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    padding: 5px 0 5px 55px;
+    text-decoration: none;
+    width: 165px;
+}
+
+.contacts-email {
+    background-position: 43px 12px;
+}
+
+.contacts-tel {
+    background-position: 43px -29px;
+}
+
+.contacts-skype {
+    background-position: 43px -69px;
 }
